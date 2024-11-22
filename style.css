@@ -1,0 +1,59 @@
+body {
+     
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     background-color: #f8f8f8;
+ }
+ 
+ h1 {
+     text-align: center;
+     margin-bottom: 40px;
+     color: hsl(120, 100%,20%);
+     
+
+ }
+ /*
+ for the list 
+ ----------------
+ I give it a percentege width of the screen size which make it  reponsable to different screen size
+the i center the list using margin auto for the left and right
+*/
+ ul {
+     list-style-type: none;
+     padding: 0px;
+     border: 1px solid hsl(0, 0%, 80%);
+     background-color: lightgray;
+     width: 50%;
+     margin: 0px auto;
+     border-radius: 10px;
+     
+     
+ }
+ 
+ /*
+ for the list items
+---------------------
+ I change the color and font weight to be bold
+ and align the text to the center 
+
+ */
+ li {
+     font-weight: bold;
+     color: hsl(120, 100%,30%);
+     padding: 10px;
+     text-align: center;
+     
+     
+ }
+
+
+
+ li:hover{
+    background-color: hsl(0, 0%, 77%);
+    border-radius: 10px;
+    color: hsl(120, 100%,20%);
+    
+ }
